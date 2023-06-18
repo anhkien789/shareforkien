@@ -7,6 +7,7 @@ import Spinner from "./Spinner";
 
 const Feed = () => {
   const [loading, setLoading] = useState(false);
+  console.log("test");
 
   if (loading)
     return <Spinner message="We are adding new ideas to your feed!" />;
