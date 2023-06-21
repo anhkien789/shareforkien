@@ -12,9 +12,7 @@ const Login = () => {
 
   const [user, setUser] = useState(null);
   const [profile, setProfile] = useState([]);
-  // const responseGoogle = (response) => {
-  //   console.log("response", response.access_token);
-  // };
+
   const handleLogin = useGoogleLogin({
     onSuccess: (response) => {
       // console.log("onSuccess", response);
@@ -73,10 +71,6 @@ const Login = () => {
           <div className="p-5">
             <img src={logo} width="130px" alt="logo" />
           </div>
-
-          {/* <div className="shadow-2xl">
-            <GoogleLogin onSuccess={responseGoogle} onError={responseGoogle} />
-          </div> */}
           <div className="shadow-2xl">
             <button
               type="button"
