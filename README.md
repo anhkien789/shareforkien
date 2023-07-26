@@ -1,5 +1,5 @@
 # shareforkien
 
-Portfolio for social appication
+Portfolio for a social application where I connect people to save memorable and meaningful photos.
 
-The project use Sanity platform for backend and react for frontend and Netlify for deployment
+The project uses the Sanity platform for Backend, React for Frontend. and Netlify for deployment.
